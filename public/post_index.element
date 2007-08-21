@@ -1,0 +1,7 @@
+<h2 class="post_index">
+  <a href="<!--#include virtual='url.element' -->">
+    <!--#include virtual='title.element' -->
+  </a>
+</h2>
+<span class="date"><!--#flastmod virtual='body.element' --></span>
+<a href="<!--#include virtual='url.element' -->#comments"><!--#include virtual='comments/count.element' --></a>

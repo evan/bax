@@ -1,0 +1,21 @@
+
+Bax
+
+Configured your paths in httpd.conf and start apache:
+  rake start
+  
+Rotate the slogan:
+  rake slogan
+  
+Build a new article:
+  rake new
+
+Index your shit:
+  rake index
+  
+It's been real.
+
+===
+
+Copyright 2007 Cloudburst, LLC. Unauthorized modification, use, and/or 
+distribution of this software is strictly prohibited.

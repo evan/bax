@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title><!--#include virtual='title.element' --> :: bax default blog</title>
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="http://blog.yourhost.com/xml/atom.xml" />
+  <link rel="shortcut icon" href="/favicon.ico" >
+  <link rel="stylesheet" type="text/css" href="/yui/build/reset/reset.css"> 
+  <link rel="stylesheet" type="text/css" href="/yui/build/base/base.css"> 
+  <link rel="stylesheet" type="text/css" href="/yui/build/grids/grids.css"> 
+  <link rel="stylesheet" type="text/css" href="/yui/build/fonts/fonts.css"> 
+  <link rel="stylesheet" type="text/css" href="/css/bax.css"> 
+  <script src="/js/jquery.js" type="text/javascript"></script>
+  <script src="/js/bax.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <div id="doc2">          
+    <div id="bd">
+
+      <div id="hd" class="header">
+        <h1><a href="/">bax default blog</a></h1>
+        <h2><!--#include virtual='/slogan.element' --></h2>
+      </div>
+
+      <div class="yui-gf">    
+        <div class="yui-u first sidebar">                
+          <div class="mid">          
+            <div class="content">
+
+              <ul>
+                <li><h3>sidebar 1</h3></li>
+                <li class="item"><a href="#">link 1</a></li>  
+                <li class="item"><a href="#">link 2</a></li>  
+                <li class="item"><a href="/about">a static page</a></li>
+              </ul>
+      
+              <ul>
+                <li>
+                  <h3>
+                    <a href="/xml/atom.xml">
+                      <img src="/images/rss.gif">
+                    </a>                    
+                    <a href="/xml/atom.xml">
+                      subscribe
+                    </a>
+                  </h3>
+                 </li>
+              </ul>
+              
+              <ul>
+                <li><h3>sidebar 2</h3></li>
+                <li class="item"><a href="#">link 1</a></li>  
+                <li class="item"><a href="#">link 2</a></li>
+              </ul>
+
+              <ul>
+                <li><h3>latest</h3></li>
+                <!--#include virtual='/recent.element' -->
+                <li id="all"><em><a href="/all">see all</a></em></li>
+              </ul>
+
+            </div>
+          </div>  
+        </div>  
+    
+        <div class="yui-u content">
+          <!--#include virtual='content.element' -->
+        </div>    
+      </div>    
+    </div>
+    
+    <div id="ft" class="footer">
+      <p>Copyright 2007 <a href="#">You</a></p>
+    </div>
+    
+  </div>  
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+<div class="post">
+  <div class="top">
+    <h2>
+      <a href="<!--#include virtual='url.element' -->">
+        <!--#include virtual='title.element' -->
+      </a>
+    </h2>
+  </div>
+  <div class="mid">
+    <div class="body">
+      <!--#include virtual='intro.element' --><!--#include virtual='ellipsis.element' -->
+      <p class="date"><!--#flastmod virtual='body.element' --></p>
+    </div>
+  </div>
+  <div class="bottom">
+    <p>
+      <!--#include virtual='link.element' -->
+      <a href="<!--#include virtual='url.element' -->#comments"><!--#include virtual='comments/count.element' --></a>
+    </p>
+  </div>
+</div>
+

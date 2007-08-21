@@ -1,0 +1,8 @@
+<div class="comment" id="comment-<!--#include virtual='index.element' -->">
+  <p class="author">
+    <!--#include virtual='author.element' -->
+    <a class="says" href="#comment-<!--#include virtual='index.element' -->" name="comment-<!--#include virtual='index.element' -->">says
+    <span class="date">(<!--#flastmod virtual='body.element' -->)</span></a>:
+  </p>
+  <!--#include virtual='body.element' -->
+</div>

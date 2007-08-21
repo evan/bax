@@ -1,0 +1,13 @@
+<entry>
+  <title><!--#include virtual='title.element' --></title>
+  <link href="http://blog.evanweaver.com<!--#include virtual='url.element' -->"/>
+  <id>http://blog.evanweaver.com<!--#include virtual='url.element' --></id>
+  <!--#config timefmt='%Y-%m-%dT%H:%M:%SZ'-->
+  <updated><!--#flastmod virtual='body.element' --></updated>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <!--#include virtual='intro.element' -->
+      <!--#include virtual='body.element' -->
+    </div>
+  </content>
+</entry>

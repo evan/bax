@@ -1,0 +1,5 @@
+these slogans
+rotate
+through the header
+if you run
+rake slogan

@@ -1,0 +1,12 @@
+
+Definitely
+
+* task to delete/edit comments
+* task to push a local article to the server
+* pagination
+* tags
+* atom feed is still suspect
+
+Maybe
+
+* use date.elements instead of flastmod (except in atom feed)

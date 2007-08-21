@@ -1,0 +1,34 @@
+
+<div id="preview" style="display: none;">
+</div>
+
+<h2 id="comment-message">Add a comment</h2>
+
+<form name="comment" action="/script/submit.rb" method="post" onsubmit="return false;">
+  <p id="author">
+    <label for="author">Name:</label>
+    <input type="text" name="author">
+  </p>
+  <p id="email">
+    <label for="email">Email:</label>
+    <input type="text" name="email">  
+  </p>
+  <p id="contact">
+    <label for="contact">E<span></span>mail:</label>
+    <input type="text" name="contact">
+  </p>
+  <p id="blog">
+    <label for="blog">Blog:</label>
+    <input type="text" name="blog">
+  </p>
+  <p id="body">
+    <textarea name="body"></textarea>
+  </p>
+  <p>Textile/Markdown enabled.</p>
+  <p id="submit">
+    <label for="preview"></label>    
+    <input name="preview" type="submit" value="Preview" onclick="Submit(this);">
+    <input name="submit" type="submit" value="Submit" onclick="Submit(this);">
+  </p>
+
+</form>
