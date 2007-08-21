@@ -13,7 +13,9 @@ Build a new article:
 Index your shit:
   rake index
   
-It's been real.
+http://localhost:4040/ in your browser, or check logs/error_log.
+  
+It's been SO REAL.
 
 ===
 
