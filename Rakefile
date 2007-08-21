@@ -28,15 +28,14 @@ namespace :article do
   
   task :index do
     with_dir do 
-      articles = Dir['articles/**/intro.element'].sort_by do |el|
-        File.mtime el
-      end.reverse
-      puts "found #{articles.size} articles"    
-  
-      articles = articles.map do |el|
+      articles = Dir['articles/**/intro.element'].map do |el|
         File.dirname(el)
-      end
-      
+      end.sort_by do |article|
+        File.mtime "#{article}/body.element"
+      end.reverse
+
+      puts "found #{articles.size} articles"    
+
       File.open("all/body.element", 'w') do |f|
         articles.each do |article|
           # build the all articles index  
